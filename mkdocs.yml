@@ -89,23 +89,23 @@ plugins:
 nav:
   - 首页: index.md
   - 第1章 引言与AI系统概述: chapters/ch01.md
-  - 第2章 AI硬件: chapters/ch02.md
-  - 第3章 操作系统、Docker与Kubernetes: chapters/ch03.md
-  - 第4章 分布式网络: chapters/ch04.md
-  - 第5章 GPU存储: chapters/ch05.md
-  - 第6章 GPU架构与CUDA: chapters/ch06.md
-  - 第7章 内存访问: chapters/ch07.md
-  - 第8章 占用率、Warp与ILP: chapters/ch08.md
-  - 第9章 算术强度: chapters/ch09.md
-  - 第10章: chapters/ch10.md
-  - 第11章: chapters/ch11.md
-  - 第12章: chapters/ch12.md
-  - 第13章: chapters/ch13.md
-  - 第14章: chapters/ch14.md
-  - 第15章: chapters/ch15.md
-  - 第16章: chapters/ch16.md
-  - 第17章: chapters/ch17.md
-  - 第18章: chapters/ch18.md
-  - 第19章: chapters/ch19.md
-  - 第20章: chapters/ch20.md
+  - 第2章 AI系统硬件概述: chapters/ch02.md
+  - 第3章 GPU环境的OS、Docker与Kubernetes调优: chapters/ch03.md
+  - 第4章 分布式网络通信调优: chapters/ch04.md
+  - 第5章 GPU存储I/O优化: chapters/ch05.md
+  - 第6章 GPU架构、CUDA编程与最大化占用率: chapters/ch06.md
+  - 第7章 GPU内存访问模式分析与调优: chapters/ch07.md
+  - 第8章 占用率调优、Warp效率与指令级并行: chapters/ch08.md
+  - 第9章 提高CUDA内核效率与算术强度: chapters/ch09.md
+  - 第10章 内核内流水线、Warp特化与协作线程块集群: chapters/ch10.md
+  - 第11章 内核间流水线、同步与CUDA流有序内存分配: chapters/ch11.md
+  - 第12章 动态调度、CUDA图与设备发起的内核编排: chapters/ch12.md
+  - 第13章 PyTorch性能分析、调优与扩展: chapters/ch13.md
+  - 第14章 PyTorch编译器、OpenAI Triton与XLA后端: chapters/ch14.md
+  - 第15章 多节点推理、并行、解码与路由优化: chapters/ch15.md
+  - 第16章 大规模推理的性能分析、调试与调优: chapters/ch16.md
+  - 第17章 扩展分离式预填充与解码推理: chapters/ch17.md
+  - 第18章 高级预填充-解码与KV缓存调优: chapters/ch18.md
+  - 第19章 动态自适应推理引擎优化: chapters/ch19.md
+  - 第20章 AI辅助性能优化与向百万GPU集群扩展: chapters/ch20.md
   - 附录: appendix/appendix.md
