@@ -1,0 +1,111 @@
+site_name: AI Systems Performance Engineering
+site_description: AI Systems Performance Engineering 中英对照翻译
+site_author: notlate-cn
+site_url: https://notlate-cn.github.io/ai-systems-performance-engeering/
+
+docs_dir: docs
+
+repo_name: notlate-cn/ai-systems-performance-engeering
+repo_url: https://github.com/notlate-cn/ai-systems-performance-engeering
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/notlate-cn/ai-systems-performance-engeering
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search:
+      lang:
+        - en
+        - zh
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: datetime
+
+nav:
+  - 首页: index.md
+  - 第1章 引言与AI系统概述: chapters/ch01.md
+  - 第2章 AI硬件: chapters/ch02.md
+  - 第3章 操作系统、Docker与Kubernetes: chapters/ch03.md
+  - 第4章 分布式网络: chapters/ch04.md
+  - 第5章 GPU存储: chapters/ch05.md
+  - 第6章 GPU架构与CUDA: chapters/ch06.md
+  - 第7章 内存访问: chapters/ch07.md
+  - 第8章 占用率、Warp与ILP: chapters/ch08.md
+  - 第9章 算术强度: chapters/ch09.md
+  - 第10章: chapters/ch10.md
+  - 第11章: chapters/ch11.md
+  - 第12章: chapters/ch12.md
+  - 第13章: chapters/ch13.md
+  - 第14章: chapters/ch14.md
+  - 第15章: chapters/ch15.md
+  - 第16章: chapters/ch16.md
+  - 第17章: chapters/ch17.md
+  - 第18章: chapters/ch18.md
+  - 第19章: chapters/ch19.md
+  - 第20章: chapters/ch20.md
+  - 附录: appendix/appendix.md

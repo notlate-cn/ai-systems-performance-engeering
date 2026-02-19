@@ -1,0 +1,44 @@
+# 原始文件
+*.pdf
+*_raw.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+.env/
+
+# MkDocs
+site/
+.cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# 旧的翻译目录（待迁移后删除）
+translated/
+
+# 原始图片目录（已复制到book/assets/images）
+img/
+
+# 提取脚本（可选，根据需要决定是否提交）
+# extract_all_chapters.py
+# extract_chapter.py
