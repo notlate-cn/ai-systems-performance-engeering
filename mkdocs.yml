@@ -44,6 +44,12 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/notlate-cn/ai-systems-performance-engeering
 
+extra_css:
+  - assets/css/toggle-english.css
+
+extra_javascript:
+  - assets/js/toggle-english.js
+
 markdown_extensions:
   - admonition
   - attr_list
