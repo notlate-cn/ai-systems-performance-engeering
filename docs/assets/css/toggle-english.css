@@ -1,13 +1,13 @@
 .toggle-english-btn {
   position: fixed;
-  bottom: 80px;
+  bottom: 90px;
   right: 20px;
   z-index: 1000;
   background-color: var(--md-primary-fg-color);
   color: white;
   border: none;
-  border-radius: 8px;
-  padding: 10px 16px;
+  border-radius: 50%;
+  padding: 8px;
   font-size: 14px;
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
@@ -15,12 +15,32 @@
   display: flex;
   align-items: center;
   gap: 6px;
+  overflow: hidden;
+  width: 32px;
+  white-space: nowrap;
+}
+
+.toggle-english-btn .icon {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.toggle-english-btn span:not(.icon) {
+  opacity: 0;
+  transition: opacity 0.2s ease;
 }
 
 .toggle-english-btn:hover {
   background-color: var(--md-primary-fg-color--dark);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   transform: translateY(-2px);
+  border-radius: 20px;
+  width: auto;
+  padding: 8px 12px;
+}
+
+.toggle-english-btn:hover span:not(.icon) {
+  opacity: 1;
 }
 
 .toggle-english-btn:active {
@@ -29,10 +49,6 @@
 
 .toggle-english-btn.hidden-english {
   background-color: var(--md-accent-fg-color);
-}
-
-.toggle-english-btn .icon {
-  font-size: 18px;
 }
 
 blockquote {
@@ -50,10 +66,15 @@ blockquote.english-hidden {
 
 @media screen and (max-width: 768px) {
   .toggle-english-btn {
-    bottom: 70px;
+    bottom: 80px;
     right: 10px;
-    padding: 8px 12px;
+    padding: 6px;
     font-size: 12px;
+    width: 28px;
+  }
+
+  .toggle-english-btn:hover {
+    padding: 6px 10px;
   }
 }
 

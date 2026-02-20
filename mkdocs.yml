@@ -46,9 +46,13 @@ extra:
 
 extra_css:
   - assets/css/toggle-english.css
+  - assets/css/annotation.css
 
 extra_javascript:
+  - https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2
   - assets/js/toggle-english.js
+  - assets/js/annotation-config.js
+  - assets/js/annotation.js
 
 markdown_extensions:
   - admonition

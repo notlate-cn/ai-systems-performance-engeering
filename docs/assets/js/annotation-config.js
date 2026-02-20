@@ -1,0 +1,2 @@
+window.SUPABASE_ANNOTATION_URL = 'https://ieggghfldnaitulljmkl.supabase.co';
+window.SUPABASE_ANNOTATION_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImllZ2dnaGZsZG5haXR1bGxqbWtsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE1NjIyMDcsImV4cCI6MjA4NzEzODIwN30.EALz56B0mf_p_w4_7Et20Q_5stFoawwT1HBpixc0M9E';
