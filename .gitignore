@@ -22,6 +22,7 @@ site/
 *.swp
 *.swo
 *~
+.trae
 
 # macOS
 .DS_Store
