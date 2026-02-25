@@ -23,6 +23,7 @@ site/
 *.swo
 *~
 .trae
+CLAUDE.md
 
 # macOS
 .DS_Store
