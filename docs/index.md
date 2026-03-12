@@ -1,7 +1,5 @@
 # AI Systems Performance Engineering
 
-> **AI Systems Performance Engineering (Chris Fregly)** 中英对照翻译
-
 ## 关于本书
 
 本书深入探讨AI系统性能工程的各个方面，从硬件架构到软件优化，从分布式训练到推理效率。通过DeepSeek等实际案例，展示了如何在资源受限的情况下榨取系统的最大性能。
