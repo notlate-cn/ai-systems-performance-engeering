@@ -14,22 +14,8 @@
 
 ## 翻译说明
 
-本项目使用GLM5翻译+人工校对。采用 **中英对照** 格式，每个段落同时展示英文原文和中文翻译，便于对照学习。
+本项目使用GLM5翻译+人工校对。采用 **中英对照** 格式，每个段落同时展示英文原文和中文翻译，便于对照学习。目前完成初稿，尚存在诸多格式错乱、中文翻译不准确、不合理、生硬等问题，由于精力有限，后续慢慢改进。
 
-## 翻译进度
-
-| 章节 | 标题 | 状态 |
-|-----|------|------|
-| Ch01 | Introduction and AI System Overview | ✅ 已完成 |
-| Ch02 | AI Hardware | ✅ 已完成 |
-| Ch03 | OS, Docker, Kubernetes | ✅ 已完成 |
-| Ch04 | Distributed Networking | ✅ 已完成 |
-| Ch05 | GPU Storage | ✅ 已完成 |
-| Ch06 | GPU Architecture & CUDA | ✅ 已完成 |
-| Ch07 | Memory Access | ✅ 已完成 |
-| Ch08 | Occupancy, Warp, ILP | ✅ 已完成 |
-| Ch09 | Arithmetic Intensity | ✅ 已完成 |
-| Ch10-20 | 待翻译 | ⏳ 进行中 |
 
 ## 如何阅读
 
