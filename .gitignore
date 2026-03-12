@@ -35,11 +35,4 @@ CLAUDE.md
 *.temp
 *.log
 *.txt
-
-*_check.md
-*_match.md
-check*.py
-extract*.py
-fix_*.py
-*_raw.md
-img/*
+tmp_files
