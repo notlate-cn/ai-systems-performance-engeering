@@ -1,11 +1,11 @@
 # AI Systems Performance Engineering 中英对照翻译
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://notlate-cn.github.io/ai-systems-performance-engeering/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://github.com/notlate-cn/ai-systems-performance-engeering)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 > **AI Systems Performance Engineering (Chris Fregly)** 中英对照翻译项目
 
-🌐 **在线阅读**: https://notlate-cn.github.io/ai-systems-performance-engeering/
+🌐 **在线阅读**: https://aispe.notlate.cn/
 
 ---
 
@@ -29,7 +29,6 @@
 - **🔍 全文搜索**: 支持中英文内容搜索
 - **🌓 深色模式**: 支持浅色/深色主题切换
 - **✏️ 文本标注**: 支持高亮和添加笔记（需登录 GitHub）
-- **👁 访问统计**: 实时显示页面访问次数
 - **📱 响应式设计**: 适配桌面和移动设备
 
 ---
@@ -38,28 +37,28 @@
 
 本项目包含 20 个章节的完整翻译：
 
-1. [第1章 引言与AI系统概述](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch01/)
-2. [第2章 AI系统硬件概述](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch02/)
-3. [第3章 GPU环境的OS、Docker与Kubernetes调优](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch03/)
-4. [第4章 分布式网络通信调优](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch04/)
-5. [第5章 GPU存储I/O优化](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch05/)
-6. [第6章 GPU架构、CUDA编程与最大化占用率](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch06/)
-7. [第7章 GPU内存访问模式分析与调优](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch07/)
-8. [第8章 占用率调优、Warp效率与指令级并行](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch08/)
-9. [第9章 提高CUDA内核效率与算术强度](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch09/)
-10. [第10章 内核内流水线、Warp特化与协作线程块集群](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch10/)
-11. [第11章 内核间流水线、同步与CUDA流有序内存分配](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch11/)
-12. [第12章 动态调度、CUDA图与设备发起的内核编排](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch12/)
-13. [第13章 PyTorch性能分析、调优与扩展](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch13/)
-14. [第14章 PyTorch编译器、OpenAI Triton与XLA后端](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch14/)
-15. [第15章 多节点推理、并行、解码与路由优化](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch15/)
-16. [第16章 大规模推理的性能分析、调试与调优](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch16/)
-17. [第17章 扩展分离式预填充与解码推理](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch17/)
-18. [第18章 高级预填充-解码与KV缓存调优](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch18/)
-19. [第19章 动态自适应推理引擎优化](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch19/)
-20. [第20章 AI辅助性能优化与向百万GPU集群扩展](https://notlate-cn.github.io/ai-systems-performance-engeering/chapters/ch20/)
+1. [第1章 引言与AI系统概述](https://aispe.notlate.cn/chapters/ch01/)
+2. [第2章 AI系统硬件概述](https://aispe.notlate.cn/chapters/ch02/)
+3. [第3章 GPU环境的OS、Docker与Kubernetes调优](https://aispe.notlate.cn/chapters/ch03/)
+4. [第4章 分布式网络通信调优](https://aispe.notlate.cn/chapters/ch04/)
+5. [第5章 GPU存储I/O优化](https://aispe.notlate.cn/chapters/ch05/)
+6. [第6章 GPU架构、CUDA编程与最大化占用率](https://aispe.notlate.cn/chapters/ch06/)
+7. [第7章 GPU内存访问模式分析与调优](https://aispe.notlate.cn/chapters/ch07/)
+8. [第8章 占用率调优、Warp效率与指令级并行](https://aispe.notlate.cn/chapters/ch08/)
+9. [第9章 提高CUDA内核效率与算术强度](https://aispe.notlate.cn/chapters/ch09/)
+10. [第10章 内核内流水线、Warp特化与协作线程块集群](https://aispe.notlate.cn/chapters/ch10/)
+11. [第11章 内核间流水线、同步与CUDA流有序内存分配](https://aispe.notlate.cn/chapters/ch11/)
+12. [第12章 动态调度、CUDA图与设备发起的内核编排](https://aispe.notlate.cn/chapters/ch12/)
+13. [第13章 PyTorch性能分析、调优与扩展](https://aispe.notlate.cn/chapters/ch13/)
+14. [第14章 PyTorch编译器、OpenAI Triton与XLA后端](https://aispe.notlate.cn/chapters/ch14/)
+15. [第15章 多节点推理、并行、解码与路由优化](https://aispe.notlate.cn/chapters/ch15/)
+16. [第16章 大规模推理的性能分析、调试与调优](https://aispe.notlate.cn/chapters/ch16/)
+17. [第17章 扩展分离式预填充与解码推理](https://aispe.notlate.cn/chapters/ch17/)
+18. [第18章 高级预填充-解码与KV缓存调优](https://aispe.notlate.cn/chapters/ch18/)
+19. [第19章 动态自适应推理引擎优化](https://aispe.notlate.cn/chapters/ch19/)
+20. [第20章 AI辅助性能优化与向百万GPU集群扩展](https://aispe.notlate.cn/chapters/ch20/)
 
-📎 [附录](https://notlate-cn.github.io/ai-systems-performance-engeering/appendix/appendix/)
+📎 [附录](https://aispe.notlate.cn/appendix/appendix/)
 
 ---
 
@@ -97,7 +96,7 @@ mkdocs serve
 
 本项目欢迎各种形式的贡献：
 
-- 🐛 **报告错误** - 发现问题请提交 [Issue](https://github.com/notlate-cn/ai-systems-performance-engeering/issues)
+- 🐛 **报告错误** - 发现问题请提 [PR](https://github.com/notlate-cn/ai-systems-performance-engeering/pulls)
 - 📝 **改进翻译** - 翻译不准确的地方欢迎 [PR](https://github.com/notlate-cn/ai-systems-performance-engeering/pulls)
 - 💡 **功能建议** - 有新功能想法请提交 [Issue](https://github.com/notlate-cn/ai-systems-performance-engeering/issues)
 
