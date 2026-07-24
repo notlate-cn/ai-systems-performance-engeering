@@ -1,6 +1,6 @@
 # AI Systems Performance Engineering
 
-> 个人博客地址：https://notlate.cn
+> 个人博客地址：[https://notlate.cn](https://notlate.cn)
 
 ## 关于本书
 
