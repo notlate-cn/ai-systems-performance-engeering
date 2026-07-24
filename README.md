@@ -7,6 +7,8 @@
 
 🌐 **在线阅读**: https://aispe.notlate.cn/
 
+📱 **技术博客**：https://notlate.cn
+
 ---
 
 ## 📚 关于本书
