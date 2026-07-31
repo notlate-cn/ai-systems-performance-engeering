@@ -71,6 +71,7 @@
 - [第1章 复习与自测：引言与AI系统概述](reviews/ch01.md)
 - [第2章 复习与自测：AI系统硬件概述](reviews/ch02.md)
 - [第3章 复习与自测：GPU环境的OS、Docker与Kubernetes调优](reviews/ch03.md)
+- [第4章 复习与自测：调优分布式网络通信](reviews/ch04.md)
 
 ---
 
